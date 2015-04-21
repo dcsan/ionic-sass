@@ -242,7 +242,8 @@ $android-transition-timing-function:      cubic-bezier(0.4, 0.6, 0.2, 1) !defaul
 .nav-bar-transition-android {
 
   .title,
-  .button {
+  .button,
+  .back-text {
     @include transition-duration( $android-transition-duration );
     @include transition-timing-function( $android-transition-timing-function );
     -webkit-transition-property: opacity;
